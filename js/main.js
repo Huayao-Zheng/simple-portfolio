@@ -61,3 +61,18 @@ sr.reveal(`.profile__profession`, { delay: 550 });
 sr.reveal(`.profile__social`, { delay: 600 });
 sr.reveal(`.filters__content`, { delay: 700 });
 sr.reveal(`.filters`, { delay: 800 });
+
+/*=============== BIRDS ANIMATION ===============*/
+VANTA.BIRDS({
+  el: 'body',
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.0,
+  minWidth: 200.0,
+  scale: 1.0,
+  scaleMobile: 1.0,
+  backgroundAlpha: 0.0,
+  color1: 0x0c151d,
+  quantity: 3.0,
+});
