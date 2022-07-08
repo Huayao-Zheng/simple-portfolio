@@ -244,6 +244,10 @@ body.dark-theme {
 }
 
 /*=============== PROJECTS ===============*/
+.projects__content {
+  margin-bottom: 50px;
+}
+
 .projects__card {
   position: relative;
   border-radius: 1rem;
@@ -395,6 +399,11 @@ body.dark-theme {
   .projects__content,
   .skills__content {
     grid-template-columns: repeat(2, 332px);
+  }
+
+  /* Entertainment web app */
+  .entertainment {
+    grid-column: span 2;
   }
 
   .skills__content {
