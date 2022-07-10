@@ -273,7 +273,8 @@ body.dark-theme {
 }
 
 .projects__subtitle,
-.projects__title {
+.projects__title,
+.projects__built {
   color: #fff;
 }
 
@@ -283,6 +284,10 @@ body.dark-theme {
 
 .projects__title {
   font-size: var(--h3-font-size);
+  margin-bottom: 0.75rem;
+}
+
+.projects__built {
   margin-bottom: 0.75rem;
 }
 
